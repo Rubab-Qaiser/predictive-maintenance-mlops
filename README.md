@@ -11,7 +11,7 @@ This project implements a complete production-grade MLOps system for predictive 
 - Enable real-time decision making via REST API
 
 ##  *System Architecture*
-text
+
 ┌─────────────────────────────────────────────────────────────────────┐
 │                         PRODUCTION SYSTEM                           │
 ├─────────────────────────────────────────────────────────────────────┤
@@ -37,7 +37,7 @@ text
 
 predictive-maintenance-mlops/
 │
-├── 📓 notebooks/
+├──  notebooks/
 │   ├── week13_ml_pipeline.ipynb      # Model training & experiment tracking
 │   ├── week14_model_registry.ipynb   # Model versioning & staging
 │   ├── week15_api_deployment.ipynb   # FastAPI & monitoring
@@ -159,9 +159,8 @@ Endpoint	Status	Response Time	Result
 P4. OST /predict	200 OK	74.54ms	 Prediction successful
 5. Load Test Results
    
-==================================================
-LOAD TEST RESULTS
-==================================================
+
+## *LOAD TEST RESULTS:*
 Total Requests:    100
 Successful:        100
 Failed:            0
